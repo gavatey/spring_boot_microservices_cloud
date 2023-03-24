@@ -17,7 +17,7 @@ public class OrderMgmtServiceApplication {
     @Bean
     public RestTemplate restTemplate() {
         System.out.println("test");
-        System.out.println("test");
+
         return new RestTemplate();
     }
 
